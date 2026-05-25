@@ -11,3 +11,12 @@ print(marks,type(marks),type("Ausaf"))
 
 # print(marks[1]) it does not run on index ,it work on keys
 print(marks["Ausaf"])
+
+
+student = {
+    "name": "ausaf",
+    "age": 24
+}
+print(student.items())
+for key, value in student.items():
+    print()

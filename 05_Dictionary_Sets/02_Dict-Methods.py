@@ -3,8 +3,8 @@ marks={"Ausaf":100,
        "harim":101
        }
 
-# Dictionary k items ko as list ke liye hum isko list mein get kr skte hai, jo iterate kar skte loop se
-print(marks.items()) #list format jo iterative hai index base pe loop chala sakte ho
+# Dictionary k items ko as tuple ke liye hum isko list mein get kr skte hai, jo iterate kar skte loop se
+print(marks.items()) #
 print(marks.keys())
 print(marks.values())
 print(marks)
