@@ -15,5 +15,11 @@ print(marks)
 print(marks.get("Ausaf")) 
 print(marks["Ausaf"])
 print(marks.get("Ausaf2")) #return none if wrong keys
-print(marks["Ausaf2"]) #return error if wrong input
+# print(marks["Ausaf2"]) #return error if wrong input
 #  Dictionary is mutable
+marks.pop("adeeb")# remove the given one
+print(marks)
+marks.update({"alina":102}) # add in the last
+print(marks)
+marks.popitem()# remove the last one
+print(marks) 
